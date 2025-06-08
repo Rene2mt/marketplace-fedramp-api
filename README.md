@@ -43,7 +43,7 @@ This project is designed to run in a Dev Container for a consistent development 
      ```sh
      uvicorn main:app --reload
      ```
-   - The API will be available at `http://localhost:8000`.
+   - The API will be available at `http://localhost:5000`.
 
 ---
 
@@ -57,7 +57,7 @@ This project is designed to run in a Dev Container for a consistent development 
   **Example:**
 
     curl -X 'GET' \
-    'http://localhost:8000/' \
+    'http://localhost:5000/' \
     -H 'accept: application/json'
 
   **Response:**
@@ -74,7 +74,7 @@ This project is designed to run in a Dev Container for a consistent development 
   **Example:**
 
     curl -X 'GET' \
-    'http://localhost:8000/products' \
+    'http://localhost:5000/products' \
     -H 'accept: application/json'
 
   **Response:**
@@ -102,7 +102,7 @@ This project is designed to run in a Dev Container for a consistent development 
   **Example:**
 
     curl -X 'GET' \
-    'http://localhost:8000/products/123' \
+    'http://localhost:5000/products/123' \
     -H 'accept: application/json'
 
   **Response:**
@@ -124,7 +124,7 @@ This project is designed to run in a Dev Container for a consistent development 
   **Example:**
 
     curl -X 'GET' \
-    'http://localhost:8000/status/123' \
+    'http://localhost:5000/status/123' \
     -H 'accept: application/json'
 
   **Response:**
